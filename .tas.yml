@@ -14,6 +14,11 @@ preMerge:
 preRun:
   - npm install -g pnpm
   - pnpm install
+  - npm install --save-dev @babel/plugin-proposal-class-properties
+  - npm install --save-dev @babel/plugin-proposal-nullish-coalescing-operator
+  - npm install --save-dev @babel/plugin-proposal-optional-chaining
+  - npm install --save-dev @babel/preset-env
+  - npm install --save-dev @babel/preset-typescript
 postRun:
   - node --version
 version: 2.0
