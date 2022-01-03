@@ -4,9 +4,6 @@ postMerge:
   pattern:
     - 'packages/hoppscotch-app/**/__tests__/**/*.js'
     - 'packages/hoppscotch-js-sandbox/src/__tests__/**/*.ts'
-  strategy:
-    threshold: <5|100s|30m|6h>
-    type: <commit|time>
 preMerge:
   pattern:
     - 'packages/hoppscotch-app/**/__tests__/**/*.js'
