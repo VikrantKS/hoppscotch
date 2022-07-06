@@ -3,6 +3,7 @@ postMerge :
     command:
       - cp ./packages/hoppscotch-app/.env.example ./packages/hoppscotch-app/.env
       - pnpm install --shamefully-hoist=true 
+
   
   subModules:          #Not to be changed
       
@@ -90,7 +91,6 @@ preMerge :
               - node --version
         configFile : "./packages/hoppscotch-app/jest.config.js"
         
-version : 2.0.2
+version : 2.0.0
 nodeVersion: 16.15.0
 tier: medium
-#test3
