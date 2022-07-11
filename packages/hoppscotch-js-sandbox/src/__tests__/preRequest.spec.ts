@@ -43,6 +43,7 @@ describe("execPreRequestScript", () => {
   })
 
   test("fails if the value is not a string", () => {
+    
     return expect(
       execPreRequestScript(
         `
